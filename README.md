@@ -1,6 +1,6 @@
-# Gireesh — Cinematic Portfolio
+# Marthala Nithin Reddy — Cinematic Portfolio
 
-A scroll-driven personal portfolio for a Computer Science student: a cinematic hero, a
+A scroll-driven personal portfolio for a Cybersecurity Analyst & Software Developer: a cinematic hero, a
 pinned typography chapter that breaks apart like a puzzle, an interactive About Me, a
 hidden Selected Works experience, two mouse-tracking 3D robots, and an editorial closing.
 

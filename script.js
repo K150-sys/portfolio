@@ -1,5 +1,5 @@
 /* ============================================================
-   GIREESH — hero orchestration
+   NITHIN — hero orchestration
    01 Hydrate copy from content.js
    02 Start the cinematic sequence once assets are ready
    03 Settle → enable micro-interactions (cursor parallax)

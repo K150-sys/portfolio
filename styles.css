@@ -1,5 +1,5 @@
 /* ============================================================
-   GIREESH — Cinematic hero
+   NITHIN — Cinematic hero
    Structure:
      01 Tokens        02 Base          03 Atmosphere layers
      04 Portrait      05 Header        06 Hero typography
@@ -51,10 +51,10 @@
 
   /* eye-flash window anchors, in % of the portrait frame —
      centered on each eye opening (screen-left / screen-right) */
-  --eye-x: 42.1%;
-  --eye-y: 50.8%;
-  --eye2-x: 52.2%;
-  --eye2-y: 48.1%;
+  --eye-x: 50.4%;
+  --eye-y: 24.2%;
+  --eye2-x: 55.4%;
+  --eye2-y: 24.0%;
 
   --gutter: clamp(24px, 5vw, 72px);
 }
@@ -157,19 +157,19 @@ a, button { touch-action: manipulation; -webkit-tap-highlight-color: transparent
 .portrait-frame {
   position: absolute;
   left: 50%;
-  top: -8vh;
+  top: 5vh;
   height: 104vh;
   aspect-ratio: 1408 / 1117;
   transform: translateX(-50%);
   /* feather reaches ~zero before the photo's edges — no visible seams */
-  -webkit-mask-image: radial-gradient(60% 68% at 50% 44%, #000 40%, transparent 85%);
-          mask-image: radial-gradient(60% 68% at 50% 44%, #000 40%, transparent 85%);
+  -webkit-mask-image: radial-gradient(60% 68% at 53% 36%, #000 40%, transparent 85%);
+          mask-image: radial-gradient(60% 68% at 53% 36%, #000 40%, transparent 85%);
 }
 
 .portrait-stage {
   position: absolute;
   inset: 0;
-  transform-origin: 50% 38%; /* the reveal breathes around the face */
+  transform-origin: 53% 24%; /* the reveal breathes around the face */
 }
 
 .portrait-img {
@@ -177,6 +177,11 @@ a, button { touch-action: manipulation; -webkit-tap-highlight-color: transparent
   height: 100%;
   display: block;
   object-fit: cover;
+  object-position: center 30%;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 /* darkness the light pulls back from */
@@ -537,9 +542,11 @@ a, button { touch-action: manipulation; -webkit-tap-highlight-color: transparent
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background-image: url("assets/hero-portrait.jpg");
-  background-size: 380%;
-  background-position: 51% 36%;
+  background-image: url("assets/nithin-avatar.png");
+  background-size: cover;
+  background-position: center;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: high-quality;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
 }
 
@@ -628,7 +635,7 @@ a, button { touch-action: manipulation; -webkit-tap-highlight-color: transparent
 .is-ready .fx-header::before,
 .is-ready .fx-header::after { opacity: 0; animation: fade-in var(--d-surface) var(--ease-soft) var(--t-surface) both; }
 
-.is-ready .fx-portrait { animation: portrait-in var(--d-portrait) var(--ease-cine) var(--t-portrait) both; will-change: transform, opacity, filter; }
+.is-ready .fx-portrait { animation: portrait-in var(--d-portrait) var(--ease-cine) var(--t-portrait) both; will-change: transform, opacity; }
 .is-ready .fx-veil     { animation: veil-out var(--d-veil) var(--ease-soft) var(--t-veil) both; }
 .is-ready .fx-sweep    { animation: sweep-pass var(--d-sweep) var(--ease-inout) var(--t-sweep) both; will-change: transform, opacity; }
 .is-ready .fx-flash          { animation: eye-window var(--d-flash) var(--ease-soft) var(--flash-delay) both; }
@@ -652,9 +659,8 @@ a, button { touch-action: manipulation; -webkit-tap-highlight-color: transparent
 }
 
 @keyframes portrait-in {
-  from { opacity: 0; transform: scale(1.07); filter: blur(16px) brightness(0.6) saturate(0.9); }
-  55%  { opacity: 1; }
-  to   { opacity: 1; transform: scale(1); filter: blur(0) brightness(1) saturate(1); }
+  from { opacity: 0; transform: scale(1.04); }
+  to   { opacity: 1; transform: scale(1); }
 }
 
 @keyframes veil-out {
@@ -850,7 +856,7 @@ button:focus-visible {
 
 /* portrait-orientation tablets: larger stage, same stacked copy */
 @media (min-width: 721px) and (max-width: 940px) and (orientation: portrait) {
-  .portrait-frame { top: 0; height: 64vh; height: 64svh; }
+  .portrait-frame { top: 3vh; height: 64vh; height: 64svh; }
   .hero-copy { bottom: 18vh; bottom: 18svh; }
 }
 
