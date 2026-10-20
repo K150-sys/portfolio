@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title">
+  <title id="title">Vox text to speech project cover</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102b2b"/><stop offset="1" stop-color="#080e13"/></linearGradient><linearGradient id="wave"><stop stop-color="#8debd7"/><stop offset="1" stop-color="#44baa9"/></linearGradient></defs>
+  <rect width="900" height="720" fill="url(#bg)"/><circle cx="708" cy="160" r="175" fill="#48c9b5" opacity=".12"/><circle cx="708" cy="160" r="125" fill="none" stroke="#66ddc8" stroke-opacity=".22"/>
+  <rect x="112" y="145" width="676" height="430" rx="26" fill="#0e171b" stroke="#70d8c7" stroke-opacity=".3"/>
+  <text x="155" y="203" fill="#a8ddd5" font-family="Arial,sans-serif" font-size="20" letter-spacing="5">VOX · TEXT TO SPEECH</text>
+  <rect x="154" y="242" width="338" height="220" rx="14" fill="#142326" stroke="#4d9a90" stroke-opacity=".35"/>
+  <path d="M188 291h244M188 333h270M188 375h219M188 417h250" stroke="#b1d8d2" stroke-opacity=".35" stroke-width="7" stroke-linecap="round"/>
+  <g transform="translate(570 293)" fill="none" stroke="url(#wave)" stroke-width="12" stroke-linecap="round"><path d="M0 62v59M35 30v123M70 0v183M105 42v99M140 18v147M175 52v79"/></g>
+  <path d="M151 510h595" stroke="#51c9b5" stroke-opacity=".28" stroke-width="2"/><text x="153" y="549" fill="#c6f0e8" font-family="monospace" font-size="17">LANGUAGE · PACE · PLAYBACK</text>
+  <text x="112" y="645" fill="#b6e8df" font-family="Arial,sans-serif" font-size="24" letter-spacing="5">PYTHON · FLASK · GOOGLE TTS · VERCEL</text>
+</svg>

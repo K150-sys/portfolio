@@ -21,7 +21,7 @@ index.html        page structure and no-JavaScript fallback content
 styles.css        presentation and responsive layouts
 script.js         animation, project, and interaction behavior
 content.js        portfolio copy, project information, and links
-assets/           portrait, resume, project covers, and 3D scene
+assets/           portrait, project covers, and 3D scene
 references/       visual references used by the original design
 GUIDE.md          implementation and editing guide
 ```
