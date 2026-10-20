@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title">
+  <title id="title">CipherSense AI secure messaging project cover</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#201a3a"/><stop offset="1" stop-color="#090b13"/></linearGradient><linearGradient id="lock" x2="1" y2="1"><stop stop-color="#c6aaff"/><stop offset="1" stop-color="#7f6bde"/></linearGradient></defs>
+  <rect width="900" height="720" fill="url(#bg)"/><circle cx="700" cy="175" r="190" fill="#775ac7" opacity=".12"/><circle cx="700" cy="175" r="128" fill="none" stroke="#a98bff" stroke-opacity=".2"/>
+  <rect x="112" y="130" width="676" height="460" rx="26" fill="#10111b" stroke="#a98bff" stroke-opacity=".32"/>
+  <path d="M112 194h676" stroke="#a98bff" stroke-opacity=".2"/><text x="154" y="173" fill="#b6a6dc" font-family="monospace" font-size="19" letter-spacing="4">CIPHERSENSE · LOCAL ANALYSIS</text>
+  <rect x="172" y="266" width="338" height="222" rx="16" fill="#18192a" stroke="#8573bd" stroke-opacity=".45"/>
+  <path d="M286 326v-26a54 54 0 0 1 108 0v26" fill="none" stroke="url(#lock)" stroke-width="13" stroke-linecap="round"/>
+  <rect x="263" y="324" width="154" height="123" rx="19" fill="url(#lock)"/><circle cx="340" cy="375" r="12" fill="#201a3a"/><path d="M340 385v26" stroke="#201a3a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M562 300h166M562 352h132M562 404h151" stroke="#c9c1e4" stroke-opacity=".55" stroke-width="7" stroke-linecap="round"/>
+  <path d="M562 467h135" stroke="#a98bff" stroke-width="4" stroke-linecap="round"/><text x="116" y="646" fill="#d8caef" font-family="Arial,sans-serif" font-size="24" letter-spacing="5">SECURE MESSAGING · PRIVACY · NLP</text>
+</svg>

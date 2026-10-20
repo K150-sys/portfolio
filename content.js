@@ -65,6 +65,20 @@ const heroContent = {
         demo: "https://asphalt-quality-fgwe32i8gxvhk2swpkehqb.streamlit.app/",
         repo: "https://github.com/K150-sys/Asphalt-Quality",
       },
+      {
+        key: "ciphersense-ai",
+        name: "CipherSense AI",
+        img: "assets/project-ciphersense.svg",
+        w: 900,
+        h: 720,
+        cat: "Security · Privacy · NLP",
+        year: "2026",
+        accent: "#a98bff",
+        title: "Secure messaging and privacy analysis for text.",
+        description: "Local secure messaging with AES-256-GCM and Scrypt key derivation, a privacy analyzer that detects and can redact sensitive text, and text-risk classification using TF-IDF and Logistic Regression. Classifier scores are decision-support signals, not proof or calibrated probabilities.",
+        demo: "https://cipher-k150-sys1.vercel.app/",
+        repo: "https://github.com/K150-sys/cipher",
+      },
     ],
   },
   bigRobot: {
@@ -77,6 +91,7 @@ const heroContent = {
       { no: "01", title: "CodeMate Terminal", description: "AI-assisted terminal with a FastAPI backend, command execution, and contextual developer help in one workflow.", tags: ["Python", "FastAPI", "WebSockets", "Docker", "Authentication"] },
       { no: "02", title: "Solar Panel Crack Segmentation", description: "Computer-vision workflow that highlights candidate cracks and compares detected contours with the source image.", tags: ["OpenCV", "NumPy", "Pillow", "Streamlit", "Contours"] },
       { no: "03", title: "Asphalt Quality Detector", description: "Explore structured asphalt data and generate quality predictions with a scikit-learn Decision Tree.", tags: ["Pandas", "scikit-learn", "Decision Tree", "Streamlit", "Data"] },
+      { no: "04", title: "CipherSense AI", description: "Secure messaging, local privacy analysis, and text-risk classification for sensitive text.", tags: ["AES-256-GCM", "Scrypt", "spaCy", "TF-IDF", "Logistic Regression"] },
     ],
     closer: {
       philosophy: ["Practical software.", "Built to solve problems."],
@@ -90,8 +105,8 @@ const heroContent = {
         groups: [
           { name: "Languages", items: ["Python", "Java", "C", "C++", "JavaScript"] },
           { name: "Web & backend", items: ["FastAPI", "Flask", "Node.js", "REST APIs", "WebSockets", "MySQL", "HTML", "CSS"] },
-          { name: "ML & data", items: ["scikit-learn", "OpenCV", "Pandas", "NumPy", "Computer vision", "Data preprocessing", "Classification"] },
-          { name: "Tools & concepts", items: ["Git", "Docker", "VS Code", "Streamlit", "Arduino", "IoT systems", "Database management"] },
+          { name: "ML & data", items: ["scikit-learn", "OpenCV", "Pandas", "NumPy", "spaCy", "TF-IDF", "Computer vision", "Data preprocessing"] },
+          { name: "Tools & concepts", items: ["AES-256-GCM", "Scrypt", "Git", "Docker", "VS Code", "Streamlit", "Arduino", "IoT systems", "Database management"] },
         ],
       },
       exploring: {
@@ -110,8 +125,8 @@ const heroContent = {
       groups: [
         { name: "Languages", items: ["Python", "Java", "C", "C++", "JavaScript"] },
         { name: "Web & backend", items: ["FastAPI", "Flask", "Node.js", "REST APIs", "WebSockets", "MySQL", "HTML", "CSS"] },
-        { name: "ML & data", items: ["scikit-learn", "OpenCV", "Pandas", "NumPy", "Computer vision", "Data preprocessing", "Classification"] },
-        { name: "Tools & concepts", items: ["Git", "Docker", "VS Code", "Streamlit", "Arduino", "IoT systems", "Database management"] },
+        { name: "ML & data", items: ["scikit-learn", "OpenCV", "Pandas", "NumPy", "spaCy", "TF-IDF", "Computer vision", "Data preprocessing"] },
+        { name: "Tools & concepts", items: ["AES-256-GCM", "Scrypt", "Git", "Docker", "VS Code", "Streamlit", "Arduino", "IoT systems", "Database management"] },
       ],
     },
     mindset: {
@@ -134,7 +149,7 @@ const heroContent = {
     eyebrow: "( 08 · Contact )",
     headline: ["Let’s work", "together."],
     line: "I'm looking for software engineering roles and internships. Email is the fastest way to reach me.",
-    email: "Kk4380@srmist.edu.in",
+    email: "kedharkoralla@gmail.com",
     emailLabel: "Email me",
     columns: [
       { title: "Sections", items: [ { label: "Home", href: "#top" }, { label: "About", href: "#section-03" }, { label: "Projects", href: "#projects" }, { label: "Skills", href: "#method" }, { label: "Contact", href: "#contact" } ] },
@@ -144,7 +159,7 @@ const heroContent = {
       { label: "GitHub", href: "https://github.com/K150-sys" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/koralla-kedhar-15117428a" },
       { label: "Resume", href: "assets/Koralla_Kedhar_Resume.pdf" },
-      { label: "Email", href: "mailto:Kk4380@srmist.edu.in" },
+      { label: "Email", href: "mailto:kedharkoralla@gmail.com" },
       { label: "Phone", href: "tel:+918555866920" },
     ],
     legal: "© 2026 Koralla Kedhar · Chennai, India",
