@@ -542,7 +542,7 @@ a, button { touch-action: manipulation; -webkit-tap-highlight-color: transparent
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background-image: url("assets/nithin-avatar.png");
+  background-image: url("assets/kedhar-photo.jpg");
   background-size: cover;
   background-position: center;
   image-rendering: -webkit-optimize-contrast;
@@ -2288,6 +2288,28 @@ html.works-open .wk { display: block; }
   letter-spacing: 0.02em;
   color: rgba(245, 240, 238, 0.9);
 }
+
+.wk-detail-copy {
+  margin: 0;
+  max-width: min(720px, 82vw);
+  color: rgba(220, 214, 211, 0.76);
+  font-size: clamp(13px, 1.55svh, 16px);
+  line-height: 1.65;
+  text-align: center;
+}
+
+.wk-detail-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.wk-detail-links a {
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  transition: border-color 180ms ease, background 180ms ease;
+}
+.wk-detail-links a:hover { border-color: #e8281e; background: rgba(232, 40, 30, 0.12); }
 
 .wk-detail-close {
   position: absolute;

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title">
+  <title id="title">CodeMate Terminal project cover</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c2e"/><stop offset="1" stop-color="#07090f"/></linearGradient><linearGradient id="line"><stop stop-color="#52a8ff"/><stop offset="1" stop-color="#7ae0c2"/></linearGradient></defs>
+  <rect width="900" height="720" fill="url(#bg)"/><circle cx="725" cy="145" r="180" fill="#163b65" opacity=".32"/><circle cx="710" cy="145" r="105" fill="none" stroke="#52a8ff" stroke-opacity=".22"/>
+  <rect x="108" y="134" width="684" height="452" rx="22" fill="#0a0d14" stroke="#809ab5" stroke-opacity=".32"/>
+  <path d="M108 178h684" stroke="#809ab5" stroke-opacity=".26"/><circle cx="141" cy="156" r="6" fill="#ff7b72"/><circle cx="162" cy="156" r="6" fill="#f0c674"/><circle cx="183" cy="156" r="6" fill="#68d4b1"/>
+  <text x="154" y="274" fill="#68d4b1" font-family="monospace" font-size="30">$ codemate --assist</text><text x="154" y="330" fill="#d9e7f4" font-family="monospace" font-size="25">FastAPI terminal ready</text><text x="154" y="376" fill="#95a9bd" font-family="monospace" font-size="22">WebSocket connected · Docker enabled</text>
+  <path d="M154 438h344" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/><text x="154" y="516" fill="#52a8ff" font-family="Arial,sans-serif" font-size="25" letter-spacing="5">BACKEND · DEVELOPER TOOLS</text>
+</svg>

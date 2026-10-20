@@ -1,5 +1,5 @@
 /* ============================================================
-   NITHIN — hero orchestration
+   KEDHAR — hero orchestration
    01 Hydrate copy from content.js
    02 Start the cinematic sequence once assets are ready
    03 Settle → enable micro-interactions (cursor parallax)
@@ -679,6 +679,8 @@
     const detailClose = wk.querySelector(".wk-detail-close");
     const detailImg = wk.querySelector(".wk-detail-media img");
     const detailTitle = wk.querySelector(".wk-detail-title");
+    const detailCopy = wk.querySelector(".wk-detail-copy");
+    const detailLinks = wk.querySelector(".wk-detail-links");
     const mainEl = document.querySelector("main");
 
     const projects = (heroContent.works.projects || []).filter((p) => !p.teaser);
@@ -721,7 +723,7 @@
         `<p class="wk-num">${pad2(i + 1)} / ${pad2(projects.length)}</p>` +
         `<h3 class="wk-name">${p.name || p.key}</h3>` +
         `<p class="wk-titleline">${p.title || ""}</p>` +
-        `<p class="wk-meta"><i></i>${p.cat || ""} &middot; ${p.year || ""}</p>` +
+        `<p class="wk-meta"><i></i>${p.cat || ""}${p.year ? ` &middot; ${p.year}` : ""}</p>` +
         `<button class="wk-view" type="button">View Project ${ARROW}</button>` +
         "</div>" +
         `<figure class="wk-media"><img src="${p.img}" alt="${p.name || ""}" ` +
@@ -821,7 +823,22 @@
     const openDetail = (data) => {
       if (!detail) return;
       if (detailImg) { detailImg.src = data.img; detailImg.alt = data.name || data.title || ""; }
-      if (detailTitle) detailTitle.textContent = data.title || data.name || "";
+      if (detailTitle) detailTitle.textContent = data.name || data.title || "";
+      if (detailCopy) detailCopy.textContent = data.description || data.title || "";
+      if (detailLinks) {
+        const links = [
+          data.demo && { label: "Live demo", href: data.demo },
+          data.repo && { label: "Source code", href: data.repo },
+        ].filter(Boolean);
+        detailLinks.replaceChildren(...links.map((item) => {
+          const a = document.createElement("a");
+          a.textContent = item.label;
+          a.href = item.href;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          return a;
+        }));
+      }
       flashTo(() => detail.classList.add("is-open"), () => {
         if (detailClose) detailClose.focus({ preventScroll: true });
       });

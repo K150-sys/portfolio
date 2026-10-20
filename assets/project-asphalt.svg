@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title">
+  <title id="title">Asphalt Quality Detector project cover</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#2a2119"/><stop offset="1" stop-color="#0c0d10"/></linearGradient><linearGradient id="road" x2="1"><stop stop-color="#f3b866"/><stop offset="1" stop-color="#e67952"/></linearGradient></defs>
+  <rect width="900" height="720" fill="url(#bg)"/><path d="M292 720 390 0h120l98 720" fill="#24272a"/><path d="M421 0h58l-9 92h-40zm-16 155h90l-8 100h-74zm-18 167h126l-10 112h-106zm-22 187h170l-10 128H355z" fill="url(#road)" opacity=".86"/>
+  <g fill="none" stroke="#f3b866" stroke-opacity=".42"><path d="M120 570 315 412" stroke-width="2"/><path d="M110 616 306 458"/><path d="M590 412 785 570"/><path d="M594 458 790 616"/></g>
+  <rect x="88" y="92" width="266" height="96" rx="14" fill="#151719" stroke="#f3b866" stroke-opacity=".55"/><text x="118" y="132" fill="#f5cc8d" font-family="Arial,sans-serif" font-size="18" letter-spacing="3">QUALITY MODEL</text><text x="118" y="166" fill="#fff1db" font-family="Arial,sans-serif" font-size="23">Decision Tree · 9 features</text>
+  <text x="96" y="666" fill="#f3d2a4" font-family="Arial,sans-serif" font-size="25" letter-spacing="5">MACHINE LEARNING · ASPHALT DATA</text>
+</svg>
