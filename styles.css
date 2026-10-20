@@ -159,7 +159,7 @@ a, button { touch-action: manipulation; -webkit-tap-highlight-color: transparent
   left: 50%;
   top: 5vh;
   height: 104vh;
-  aspect-ratio: 1408 / 1117;
+  aspect-ratio: 1145 / 1536;
   transform: translateX(-50%);
   /* feather reaches ~zero before the photo's edges — no visible seams */
   -webkit-mask-image: radial-gradient(60% 68% at 53% 36%, #000 40%, transparent 85%);
@@ -542,7 +542,7 @@ a, button { touch-action: manipulation; -webkit-tap-highlight-color: transparent
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background-image: url("assets/kedhar-photo.jpg");
+  background-image: url("assets/kedhar-photo.png");
   background-size: cover;
   background-position: center;
   image-rendering: -webkit-optimize-contrast;
