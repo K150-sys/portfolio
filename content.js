@@ -62,7 +62,7 @@ const heroContent = {
         accent: "#a98bff",
         title: "Secure Messaging & Privacy Analyzer with secure encryption and text-risk classification.",
         description: "Local secure messaging with AES-256-GCM and Scrypt key derivation, a privacy analyzer that detects and can redact sensitive text, and text-risk classification using TF-IDF and Logistic Regression. Classifier scores are decision-support signals, not proof or calibrated probabilities.",
-        demo: "https://cipher-k150-sys1.vercel.app/",
+        demo: "https://cipher-eight-ivory.vercel.app/",
         repo: "https://github.com/K150-sys/cipher",
       },
     ],
